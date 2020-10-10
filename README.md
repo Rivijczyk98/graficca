@@ -1,5 +1,11 @@
 # Graficca
-Projekt na zaliczenie Grafiki Komputerowej na Politechnice Białostockiej 2020/2021
+Projekt na zaliczenie Grafiki Komputerowej na Politechnice Białostockiej 2020/2021. Składa się z 9 zadań finalnie tworzących jeden program. 
+
+## Autor
+* [Daniel D](https://github.com/Rivijczyk98)
+
+## Technologia
+* Swing
 
 ## Funkcjonalności zawarte
 ### Zadanie 1
