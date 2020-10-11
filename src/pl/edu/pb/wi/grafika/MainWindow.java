@@ -1,6 +1,7 @@
 package pl.edu.pb.wi.grafika;
 
 import javax.swing.*;
+import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.LinkedList;
@@ -55,10 +56,14 @@ public class MainWindow extends JFrame {
     public MainWindow(){
         add(jPanel);
 
+        Content.setLayout(new GridBagLayout());
+
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         setTitle("Main Window");
         setSize(1280, 720);
+
+        setVisible(true);
 
         removePoints();
 

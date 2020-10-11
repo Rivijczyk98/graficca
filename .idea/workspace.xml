@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="" />
+    <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +41,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iYoo9f6dNwgFfjEoleZX4EWiQ6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="290" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
@@ -91,6 +116,7 @@
       <workItem from="1602236060936" duration="23142000" />
       <workItem from="1602275094611" duration="3854000" />
       <workItem from="1602325892001" duration="796000" />
+      <workItem from="1602407609011" duration="1741000" />
     </task>
     <servers />
   </component>
@@ -102,46 +128,46 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="771" y="220" width="424" height="673" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/56.27.1864.1053@56.27.1864.1053" timestamp="1602272178886" />
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1602278704142">
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1602409549760">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1602278704142" />
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1602409549760" />
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1602274661377">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="97" key="GridCell.Tab.0.bottom" timestamp="1602279002770">
+    <state width="1818" height="277" key="GridCell.Tab.0.bottom" timestamp="1602410833333">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="97" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602279002770" />
-    <state width="1818" height="97" key="GridCell.Tab.0.center" timestamp="1602279002770">
+    <state width="1818" height="277" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
+    <state width="1818" height="277" key="GridCell.Tab.0.center" timestamp="1602410833333">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="97" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602279002770" />
-    <state width="1818" height="97" key="GridCell.Tab.0.left" timestamp="1602279002770">
+    <state width="1818" height="277" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
+    <state width="1818" height="277" key="GridCell.Tab.0.left" timestamp="1602410833332">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="97" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602279002770" />
-    <state width="1818" height="97" key="GridCell.Tab.0.right" timestamp="1602279002770">
+    <state width="1818" height="277" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833332" />
+    <state width="1818" height="277" key="GridCell.Tab.0.right" timestamp="1602410833333">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="97" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602279002770" />
-    <state width="1818" height="155" key="GridCell.Tab.1.bottom" timestamp="1602275076109">
+    <state width="1818" height="277" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
+    <state width="1818" height="277" key="GridCell.Tab.1.bottom" timestamp="1602410834378">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="155" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602275076109" />
-    <state width="1818" height="155" key="GridCell.Tab.1.center" timestamp="1602275076109">
+    <state width="1818" height="277" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
+    <state width="1818" height="277" key="GridCell.Tab.1.center" timestamp="1602410834378">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="155" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602275076109" />
-    <state width="1818" height="155" key="GridCell.Tab.1.left" timestamp="1602275076109">
+    <state width="1818" height="277" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
+    <state width="1818" height="277" key="GridCell.Tab.1.left" timestamp="1602410834377">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="155" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602275076109" />
-    <state width="1818" height="155" key="GridCell.Tab.1.right" timestamp="1602275076109">
+    <state width="1818" height="277" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834377" />
+    <state width="1818" height="277" key="GridCell.Tab.1.right" timestamp="1602410834378">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="155" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602275076109" />
+    <state width="1818" height="277" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
     <state x="477" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602243495858">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -174,6 +200,16 @@
           <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Line.java</url>
           <line>53</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

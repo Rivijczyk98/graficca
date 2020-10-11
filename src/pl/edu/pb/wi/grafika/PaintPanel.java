@@ -5,6 +5,10 @@ import java.awt.*;
 
 public class PaintPanel extends JPanel {
 
+    public PaintPanel() {
+        super(new GridBagLayout());
+    }
+
     @Override
     public void repaint() {
         super.repaint();
