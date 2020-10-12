@@ -2,25 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/rectangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/MouseMovementStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Models/Drawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Models/Interfaces/IDrawable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Models/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/StatisticsNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/TopNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newImage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/IDrawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Line.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/PaintPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Drawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/IDrawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Line.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Memento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Shape.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +90,22 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="270" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/icons" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -116,7 +155,7 @@
       <workItem from="1602236060936" duration="23142000" />
       <workItem from="1602275094611" duration="3854000" />
       <workItem from="1602325892001" duration="796000" />
-      <workItem from="1602407609011" duration="1741000" />
+      <workItem from="1602407609011" duration="12442000" />
     </task>
     <servers />
   </component>
@@ -128,54 +167,62 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="771" y="220" width="424" height="673" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/56.27.1864.1053@56.27.1864.1053" timestamp="1602272178886" />
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1602409549760">
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1602427294534">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1602409549760" />
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1602427294534" />
+    <state x="721" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602418998264">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state x="721" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602418998264" />
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1602274661377">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="277" key="GridCell.Tab.0.bottom" timestamp="1602410833333">
+    <state width="1818" height="277" key="GridCell.Tab.0.bottom" timestamp="1602434834799">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
-    <state width="1818" height="277" key="GridCell.Tab.0.center" timestamp="1602410833333">
+    <state width="1818" height="277" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834799" />
+    <state width="1818" height="277" key="GridCell.Tab.0.center" timestamp="1602434834798">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
-    <state width="1818" height="277" key="GridCell.Tab.0.left" timestamp="1602410833332">
+    <state width="1818" height="277" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834798" />
+    <state width="1818" height="277" key="GridCell.Tab.0.left" timestamp="1602434834797">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833332" />
-    <state width="1818" height="277" key="GridCell.Tab.0.right" timestamp="1602410833333">
+    <state width="1818" height="277" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834797" />
+    <state width="1818" height="277" key="GridCell.Tab.0.right" timestamp="1602434834798">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
-    <state width="1818" height="277" key="GridCell.Tab.1.bottom" timestamp="1602410834378">
+    <state width="1818" height="277" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834798" />
+    <state width="1818" height="277" key="GridCell.Tab.1.bottom" timestamp="1602434834801">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
-    <state width="1818" height="277" key="GridCell.Tab.1.center" timestamp="1602410834378">
+    <state width="1818" height="277" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834801" />
+    <state width="1818" height="277" key="GridCell.Tab.1.center" timestamp="1602434834800">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
-    <state width="1818" height="277" key="GridCell.Tab.1.left" timestamp="1602410834377">
+    <state width="1818" height="277" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834800" />
+    <state width="1818" height="277" key="GridCell.Tab.1.left" timestamp="1602434834799">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834377" />
-    <state width="1818" height="277" key="GridCell.Tab.1.right" timestamp="1602410834378">
+    <state width="1818" height="277" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834799" />
+    <state width="1818" height="277" key="GridCell.Tab.1.right" timestamp="1602434834800">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602410834378" />
-    <state x="477" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602243495858">
+    <state width="1818" height="277" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602434834800" />
+    <state x="477" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602419873729">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="477" y="188" width="1022" height="737" key="SettingsEditor/56.27.1864.1053@56.27.1864.1053" timestamp="1602243495858" />
+    <state x="477" y="188" width="1022" height="737" key="SettingsEditor/56.27.1864.1053@56.27.1864.1053" timestamp="1602419873729" />
     <state x="842" y="350" width="291" height="414" key="UIDesigner.ListEditorDialog" timestamp="1602100527882">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="842" y="350" width="291" height="414" key="UIDesigner.ListEditorDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602100527882" />
+    <state width="932" height="526" key="XDebugger.FullValuePopup" timestamp="1602431127759">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state width="932" height="526" key="XDebugger.FullValuePopup/56.27.1864.1053@56.27.1864.1053" timestamp="1602431127759" />
     <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602325895255">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -197,21 +244,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Line.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GrafikaKomputerowa$Main.ic" NAME="Main Coverage Results" MODIFIED="1602426851780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.pb.wi.grafika.*</FILTER>
+    </SUITE>
   </component>
 </project>
