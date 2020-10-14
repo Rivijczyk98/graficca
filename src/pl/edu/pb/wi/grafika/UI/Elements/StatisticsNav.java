@@ -16,9 +16,12 @@ public class StatisticsNav extends JPanel {
 
         GridBagConstraints gc = new GridBagConstraints();
 
-        gc.fill = GridBagConstraints.LINE_START;
-
+        gc.anchor = GridBagConstraints.WEST;
+        gc.fill = GridBagConstraints.BOTH;
+        gc.weightx = 1;
         mousePosition = new JLabel("X: 0, Y: 0");
+
+        mousePosition.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 0));
         mousePosition.setForeground(Color.WHITE);
 
         add(mousePosition, gc);

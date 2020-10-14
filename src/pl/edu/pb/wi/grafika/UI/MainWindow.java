@@ -1,5 +1,6 @@
 package pl.edu.pb.wi.grafika.UI;
 
+import pl.edu.pb.wi.grafika.DataStorage.Storage;
 import pl.edu.pb.wi.grafika.Handlers.MouseMovementStatistics;
 import pl.edu.pb.wi.grafika.UI.Elements.*;
 
@@ -8,7 +9,7 @@ import java.awt.*;
 
 public class MainWindow extends JFrame {
 
-    TopNav topNav = new TopNav();
+    TopNav topNav;
     ToolsNav tools = new ToolsNav();
     PaintPanel paintPanel = new PaintPanel();
     StatisticsNav statisticsNav = new StatisticsNav();
@@ -16,6 +17,8 @@ public class MainWindow extends JFrame {
 
     public MainWindow() throws HeadlessException {
         super();
+
+        Storage.mainWindow = this;
 
         setLayout(new GridBagLayout());
 
@@ -30,6 +33,8 @@ public class MainWindow extends JFrame {
         gc.weightx = 1f;
         gc.weighty = 0.05f;
         gc.gridwidth = 2;
+
+        topNav = new TopNav(paintPanel);
         add(topNav, gc);
 
         gc.fill = GridBagConstraints.BOTH;
