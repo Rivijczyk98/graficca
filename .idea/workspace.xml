@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$11.class" afterDir="false" />
@@ -17,10 +15,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/PaintPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +111,8 @@
       <workItem from="1602275094611" duration="3854000" />
       <workItem from="1602325892001" duration="796000" />
       <workItem from="1602407609011" duration="1741000" />
+      <workItem from="1602506652839" duration="679000" />
+      <workItem from="1602676465784" duration="30000" />
     </task>
     <servers />
   </component>
@@ -136,22 +132,22 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="277" key="GridCell.Tab.0.bottom" timestamp="1602410833333">
+    <state width="1818" height="217" key="GridCell.Tab.0.bottom" timestamp="1602676495417">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
-    <state width="1818" height="277" key="GridCell.Tab.0.center" timestamp="1602410833333">
+    <state width="1818" height="217" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602676495417" />
+    <state width="1818" height="217" key="GridCell.Tab.0.center" timestamp="1602676495417">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
-    <state width="1818" height="277" key="GridCell.Tab.0.left" timestamp="1602410833332">
+    <state width="1818" height="217" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602676495417" />
+    <state width="1818" height="217" key="GridCell.Tab.0.left" timestamp="1602676495416">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833332" />
-    <state width="1818" height="277" key="GridCell.Tab.0.right" timestamp="1602410833333">
+    <state width="1818" height="217" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602676495416" />
+    <state width="1818" height="217" key="GridCell.Tab.0.right" timestamp="1602676495417">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602410833333" />
+    <state width="1818" height="217" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602676495417" />
     <state width="1818" height="277" key="GridCell.Tab.1.bottom" timestamp="1602410834378">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -176,10 +172,10 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="842" y="350" width="291" height="414" key="UIDesigner.ListEditorDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602100527882" />
-    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602325895255">
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602676465869">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602325895255" />
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602676465869" />
     <state x="523" y="292" width="920" height="529" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602187058746">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -213,5 +209,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GrafikaKomputerowa$Main.ic" NAME="Main Coverage Results" MODIFIED="1602426851780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.edu.pb.wi.grafika.*</FILTER>
+    </SUITE>
   </component>
 </project>
