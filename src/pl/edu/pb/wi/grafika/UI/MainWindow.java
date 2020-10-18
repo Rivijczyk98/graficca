@@ -73,4 +73,8 @@ public class MainWindow extends JFrame {
     public void setErrorText (String errorText){
         editorNav.changeErrorText(errorText);
     }
+
+    public String getErrorMessage(){
+        return editorNav.getError();
+    }
 }

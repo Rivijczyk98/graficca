@@ -29,6 +29,10 @@ public class Storage {
         Storage.mousePosition = mousePosition;
     }
 
+    public static String getErrorMessage(){
+        return mainWindow.getErrorMessage();
+    }
+
     public static void setErrorMessage(String errorMessage){
         mainWindow.setErrorText(errorMessage);
     }

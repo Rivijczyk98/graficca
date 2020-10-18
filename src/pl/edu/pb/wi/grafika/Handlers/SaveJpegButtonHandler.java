@@ -2,7 +2,6 @@ package pl.edu.pb.wi.grafika.Handlers;
 
 import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
 import pl.edu.pb.wi.grafika.UI.Elements.ToolsNav;
-import pl.edu.pb.wi.grafika.utils.JpegCompression;
 
 import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;

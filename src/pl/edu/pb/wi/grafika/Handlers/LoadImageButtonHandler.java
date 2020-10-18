@@ -49,10 +49,13 @@ public class LoadImageButtonHandler implements ActionListener {
                         case "P6":
                             image = P6.load(opener.getSelectedFile());
                             break;
-
                         default:
                             Storage.setErrorMessage("Invalid ppm type (" + new String(b, StandardCharsets.UTF_8) + ")");
+                            break;
                     }
+                }
+                if(!Storage.getErrorMessage().equals("Too much bytes in file. Ending creating image.")){
+                    Storage.setErrorMessage("");
                 }
                 paintPanel.setImage(image);
             } catch (Exception e) {

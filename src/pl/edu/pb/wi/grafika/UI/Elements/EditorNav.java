@@ -38,4 +38,8 @@ public class EditorNav extends JPanel {
     public void changeErrorText(String text){
         errorLog.setText(text);
     }
+
+    public String getError(){
+        return errorLog.getText();
+    }
 }

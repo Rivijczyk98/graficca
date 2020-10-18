@@ -2,31 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/NumericInputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/DataStorage/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/DataStorage/Storage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/TopNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/TopNav.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/ColorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/ColorUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/Jpeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/JpegCompression.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/YUV.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/TopNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/TopNav.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/Jpeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/PPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/PPM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +128,7 @@
       <workItem from="1602677663075" duration="16895000" />
       <workItem from="1602746942615" duration="8759000" />
       <workItem from="1602924534316" duration="20361000" />
-      <workItem from="1603010823239" duration="13917000" />
+      <workItem from="1603010823239" duration="17345000" />
     </task>
     <servers />
   </component>
@@ -165,22 +152,22 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="116" key="GridCell.Tab.0.bottom" timestamp="1603032233719">
+    <state width="1818" height="267" key="GridCell.Tab.0.bottom" timestamp="1603039377148">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="116" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
-    <state width="1818" height="116" key="GridCell.Tab.0.center" timestamp="1603032233719">
+    <state width="1818" height="267" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
+    <state width="1818" height="267" key="GridCell.Tab.0.center" timestamp="1603039377148">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="116" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
-    <state width="1818" height="116" key="GridCell.Tab.0.left" timestamp="1603032233718">
+    <state width="1818" height="267" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
+    <state width="1818" height="267" key="GridCell.Tab.0.left" timestamp="1603039377148">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="116" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233718" />
-    <state width="1818" height="116" key="GridCell.Tab.0.right" timestamp="1603032233719">
+    <state width="1818" height="267" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
+    <state width="1818" height="267" key="GridCell.Tab.0.right" timestamp="1603039377148">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="116" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
+    <state width="1818" height="267" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
     <state width="1818" height="116" key="GridCell.Tab.1.bottom" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>

@@ -60,8 +60,15 @@ public class P6 extends PPM {
 
         while ( (readFlag = fs.read(buff)) != -1){
 
-            if(readFlag != 3 || posY == rows)
+            if(readFlag != 3 && posY == rows)
                 break;
+            else if(readFlag != 3){
+                Storage.setErrorMessage("Not enough bytes to cover entire planned space.");
+                return null;
+            } else if (posY == rows){
+                Storage.setErrorMessage("Too much bytes in file. Ending creating image.");
+                break;
+            }
 
             try {
                 image.setRGB(
