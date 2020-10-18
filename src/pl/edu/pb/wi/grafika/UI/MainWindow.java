@@ -34,7 +34,7 @@ public class MainWindow extends JFrame {
         gc.weighty = 0.05f;
         gc.gridwidth = 2;
 
-        topNav = new TopNav(paintPanel);
+        topNav = new TopNav(paintPanel, tools);
         add(topNav, gc);
 
         gc.fill = GridBagConstraints.BOTH;
@@ -68,5 +68,9 @@ public class MainWindow extends JFrame {
         paintPanel.addMouseMotionListener(new MouseMovementStatistics(statisticsNav));
 
         setVisible(true);
+    }
+
+    public void setErrorText (String errorText){
+        editorNav.changeErrorText(errorText);
     }
 }

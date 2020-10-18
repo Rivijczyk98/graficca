@@ -10,6 +10,7 @@ public class PaintPanel extends JPanel {
 
     public void setImage(BufferedImage _image) {
         originalImage = _image;
+        revalidate();
         paintComponent(getGraphics());
     }
 
@@ -27,5 +28,9 @@ public class PaintPanel extends JPanel {
 
         graphics2D.drawImage(originalImage, width, height, null);
 
+    }
+
+    public BufferedImage getImage(){
+        return originalImage;
     }
 }

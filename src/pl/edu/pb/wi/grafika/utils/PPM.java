@@ -48,7 +48,23 @@ public class PPM {
     static String nextIgnoreComments(BufferedReader reader) throws IOException {
         String l = reader.readLine();
         if(l == null) return null;
+        l = l.trim();
+
         return l.charAt(0) != '#' ? l : nextIgnoreComments(reader);
     }
 
+    static void getBufferFromReader(BufferedReader reader, ArrayList<Integer> ints) throws IOException {
+        String l = reader.readLine();
+        if(l == null) return;
+        l = l.trim();
+
+        String[] lines = l.split(" ");
+
+        for (String s:
+                lines) {
+            ints.add(Integer.parseInt(s));
+        }
+
+        if(ints.size() < 3) getBufferFromReader(reader, ints);
+    }
 }

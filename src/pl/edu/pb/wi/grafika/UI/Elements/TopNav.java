@@ -18,7 +18,7 @@ public class TopNav extends JPanel {
     private JButton saveFileAsP6 = new Button("Save P6");
     private JButton saveFileAsJPEG = new Button("Save JPEG");
 
-    public TopNav(PaintPanel _paintPanel) {
+    public TopNav(PaintPanel _paintPanel, ToolsNav _toolsNav) {
         super(new GridBagLayout());
         setBackground(Color.DARK_GRAY);
 
@@ -30,17 +30,13 @@ public class TopNav extends JPanel {
         loadFile.addActionListener(new LoadImageButtonHandler(_paintPanel));
         add(loadFile, gc);
 
-        saveFileAsP3.addActionListener(new SaveP3ButtonHandler());
-        add(saveFileAsP3, gc);
-
-        saveFileAsP6.addActionListener(new SaveP6ButtonHandler());
-        add(saveFileAsP6, gc);
-
         saveFileAsJPEG.setPreferredSize(new Dimension(150, 32));
-        saveFileAsJPEG.addActionListener(new SaveJpegButtonHandler());
+        saveFileAsJPEG.addActionListener(
+                new SaveJpegButtonHandler(_toolsNav, _paintPanel)
+        );
         add(saveFileAsJPEG, gc);
 
-        gc.weightx = 0.92;
+        gc.weightx = 0.96;
         JPanel jp = new JPanel(new GridBagLayout());
         jp.setBackground(Color.DARK_GRAY);
         add(jp, gc);

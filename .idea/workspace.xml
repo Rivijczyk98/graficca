@@ -2,34 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveP3ButtonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveP6ButtonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/prefabs/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/Jpeg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/PPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/NumericInputHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/DataStorage/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/DataStorage/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Models/Drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Models/Interfaces/IDrawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Models/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/StatisticsNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/StatisticsNav.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/Tool.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/TopNav.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/Elements/TopNav.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/UI/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/ColorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/ColorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/Jpeg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/PaintPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/StatisticsNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/StatisticsNav.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/ToolsNav.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/TopNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/TopNav.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/Jpeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/PPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/PPM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Zadanie1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iYoo9f6dNwgFfjEoleZX4EWiQ6" />
@@ -103,6 +105,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +139,9 @@
       <workItem from="1602325892001" duration="796000" />
       <workItem from="1602407609011" duration="12442000" />
       <workItem from="1602677663075" duration="16895000" />
+      <workItem from="1602746942615" duration="8759000" />
+      <workItem from="1602924534316" duration="20361000" />
+      <workItem from="1603010823239" duration="13917000" />
     </task>
     <servers />
   </component>
@@ -147,10 +153,10 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="771" y="220" width="424" height="673" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog_Form/56.27.1864.1053@56.27.1864.1053" timestamp="1602272178886" />
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1602686631002">
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1603011563883">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1602686631002" />
+    <state x="796" y="266" width="544" height="589" key="#com.intellij.ide.util.MemberChooser/56.27.1864.1053@56.27.1864.1053" timestamp="1603011563883" />
     <state x="721" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602418998264">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -159,38 +165,38 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="217" key="GridCell.Tab.0.bottom" timestamp="1602692658528">
+    <state width="1818" height="116" key="GridCell.Tab.0.bottom" timestamp="1603032233719">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="217" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602692658528" />
-    <state width="1818" height="217" key="GridCell.Tab.0.center" timestamp="1602692658528">
+    <state width="1818" height="116" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
+    <state width="1818" height="116" key="GridCell.Tab.0.center" timestamp="1603032233719">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="217" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602692658528" />
-    <state width="1818" height="217" key="GridCell.Tab.0.left" timestamp="1602692658528">
+    <state width="1818" height="116" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
+    <state width="1818" height="116" key="GridCell.Tab.0.left" timestamp="1603032233718">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="217" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602692658528" />
-    <state width="1818" height="217" key="GridCell.Tab.0.right" timestamp="1602692658528">
+    <state width="1818" height="116" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233718" />
+    <state width="1818" height="116" key="GridCell.Tab.0.right" timestamp="1603032233719">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="217" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602692658528" />
-    <state width="1818" height="277" key="GridCell.Tab.1.bottom" timestamp="1602688929063">
+    <state width="1818" height="116" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233719" />
+    <state width="1818" height="116" key="GridCell.Tab.1.bottom" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1602688929063" />
-    <state width="1818" height="277" key="GridCell.Tab.1.center" timestamp="1602688929063">
+    <state width="1818" height="116" key="GridCell.Tab.1.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233720" />
+    <state width="1818" height="116" key="GridCell.Tab.1.center" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1602688929063" />
-    <state width="1818" height="277" key="GridCell.Tab.1.left" timestamp="1602688929063">
+    <state width="1818" height="116" key="GridCell.Tab.1.center/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233720" />
+    <state width="1818" height="116" key="GridCell.Tab.1.left" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1602688929063" />
-    <state width="1818" height="277" key="GridCell.Tab.1.right" timestamp="1602688929063">
+    <state width="1818" height="116" key="GridCell.Tab.1.left/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233720" />
+    <state width="1818" height="116" key="GridCell.Tab.1.right" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="1818" height="277" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1602688929063" />
+    <state width="1818" height="116" key="GridCell.Tab.1.right/56.27.1864.1053@56.27.1864.1053" timestamp="1603032233720" />
     <state x="477" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1602419873729">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -199,14 +205,14 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="842" y="350" width="291" height="414" key="UIDesigner.ListEditorDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602100527882" />
-    <state width="932" height="526" key="XDebugger.FullValuePopup" timestamp="1602431127759">
+    <state width="930" height="526" key="XDebugger.FullValuePopup" timestamp="1603028302673">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state width="932" height="526" key="XDebugger.FullValuePopup/56.27.1864.1053@56.27.1864.1053" timestamp="1602431127759" />
-    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1602677670635">
+    <state width="930" height="526" key="XDebugger.FullValuePopup/56.27.1864.1053@56.27.1864.1053" timestamp="1603028302673" />
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1603010823125">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1602677670635" />
+    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1603010823125" />
     <state x="523" y="292" width="920" height="529" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602187058746">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
@@ -215,10 +221,26 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="652" y="252" key="run.anything.popup/56.27.1864.1053@56.27.1864.1053" timestamp="1602260497387" />
-    <state x="651" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602693382329">
+    <state x="651" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602708850495">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="651" y="259" width="672" height="678" key="search.everywhere.popup/56.27.1864.1053@56.27.1864.1053" timestamp="1602693382329" />
+    <state x="651" y="259" width="672" height="678" key="search.everywhere.popup/56.27.1864.1053@56.27.1864.1053" timestamp="1602708850495" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P3.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/ColorUtil.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GrafikaKomputerowa$Main.ic" NAME="Main Coverage Results" MODIFIED="1602426851780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
