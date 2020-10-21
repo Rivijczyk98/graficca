@@ -74,7 +74,7 @@ public class MainWindow extends JFrame {
         editorNav.changeErrorText(errorText);
     }
 
-    public String getErrorMessage(){
-        return editorNav.getError();
-    }
+//    public String getErrorMessage(){
+//        return editorNav.getError();
+//    }
 }

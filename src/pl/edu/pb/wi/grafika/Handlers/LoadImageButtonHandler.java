@@ -54,9 +54,9 @@ public class LoadImageButtonHandler implements ActionListener {
                             break;
                     }
                 }
-                if(!Storage.getErrorMessage().equals("Too much bytes in file. Ending creating image.")){
-                    Storage.setErrorMessage("");
-                }
+//                if(!Storage.getErrorMessage().equals("Too much bytes in file. Ending creating image.")){
+//                    Storage.setErrorMessage("");
+//                }
                 paintPanel.setImage(image);
             } catch (Exception e) {
                 e.printStackTrace();

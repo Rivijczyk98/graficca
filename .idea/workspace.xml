@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3419ecee-9b46-422c-be56-88628a03d266" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/JpegCompression.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/P6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Grafika Komputerowa/pl/edu/pb/wi/grafika/utils/YUV.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/DataStorage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/LoadImageButtonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/Handlers/SaveJpegButtonHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/Elements/EditorNav.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/UI/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pb/wi/grafika/utils/P6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +122,7 @@
       <workItem from="1602746942615" duration="8759000" />
       <workItem from="1602924534316" duration="20361000" />
       <workItem from="1603010823239" duration="17345000" />
+      <workItem from="1603300529183" duration="2849000" />
     </task>
     <servers />
   </component>
@@ -152,21 +146,25 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="861" y="442" width="244" height="230" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/56.27.1864.1053@56.27.1864.1053" timestamp="1602274661377" />
-    <state width="1818" height="267" key="GridCell.Tab.0.bottom" timestamp="1603039377148">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1874" height="116" key="GridCell.Tab.0.bottom" timestamp="1603304710566">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="116" key="GridCell.Tab.0.bottom/56.27.1864.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603304710566" />
     <state width="1818" height="267" key="GridCell.Tab.0.bottom/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
-    <state width="1818" height="267" key="GridCell.Tab.0.center" timestamp="1603039377148">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1874" height="116" key="GridCell.Tab.0.center" timestamp="1603304710565">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="116" key="GridCell.Tab.0.center/56.27.1864.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603304710565" />
     <state width="1818" height="267" key="GridCell.Tab.0.center/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
-    <state width="1818" height="267" key="GridCell.Tab.0.left" timestamp="1603039377148">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1874" height="116" key="GridCell.Tab.0.left" timestamp="1603304710565">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="116" key="GridCell.Tab.0.left/56.27.1864.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603304710565" />
     <state width="1818" height="267" key="GridCell.Tab.0.left/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
-    <state width="1818" height="267" key="GridCell.Tab.0.right" timestamp="1603039377148">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state width="1874" height="116" key="GridCell.Tab.0.right" timestamp="1603304710565">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="116" key="GridCell.Tab.0.right/56.27.1864.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603304710565" />
     <state width="1818" height="267" key="GridCell.Tab.0.right/56.27.1864.1053@56.27.1864.1053" timestamp="1603039377148" />
     <state width="1818" height="116" key="GridCell.Tab.1.bottom" timestamp="1603032233720">
       <screen x="56" y="27" width="1864" height="1053" />
@@ -196,9 +194,10 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state width="930" height="526" key="XDebugger.FullValuePopup/56.27.1864.1053@56.27.1864.1053" timestamp="1603028302673" />
-    <state x="1091" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1603010823125">
-      <screen x="56" y="27" width="1864" height="1053" />
+    <state x="2986" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1603300530200">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2986" y="363" key="com.intellij.ide.util.TipDialog/56.27.1864.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603300530200" />
     <state x="1091" y="381" key="com.intellij.ide.util.TipDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1603010823125" />
     <state x="523" y="292" width="920" height="529" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602187058746">
       <screen x="56" y="27" width="1864" height="1053" />

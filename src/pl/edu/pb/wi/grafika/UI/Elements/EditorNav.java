@@ -39,7 +39,7 @@ public class EditorNav extends JPanel {
         errorLog.setText(text);
     }
 
-    public String getError(){
-        return errorLog.getText();
-    }
+//    public String getError(){
+//        return errorLog.getText();
+//    }
 }
