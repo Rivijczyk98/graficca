@@ -21,12 +21,25 @@ public class ToolsNav extends JPanel {
         gc.ipadx = 2;
         gc.ipady = 10;
 
+        gc.weighty = 0.1f;
+
         JLabel jpegHeader = new JLabel("Jpeg Compression Level");
         jpegHeader.setForeground(Color.WHITE);
         add(jpegHeader, gc);
 
         gc.gridy = 1;
+        gc.weighty = 0.1f;
         add(jpegCompressionPicker, gc);
+
+        gc.gridy = 2;
+        gc.weighty = 0.3f;
+        add(new RgbPicker(), gc);
+
+        gc.gridy = 3;
+        gc.weighty = 0.5f;
+        JPanel jPanel = new JPanel();
+        jPanel.setBackground(Color.DARK_GRAY);
+        add(jPanel, gc);
 
         jpegCompressionPicker.addKeyListener(new NumericInputHandler(jpegCompressionPicker, 0, 100));
 
