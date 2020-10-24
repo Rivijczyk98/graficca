@@ -6,9 +6,9 @@ import java.awt.event.KeyEvent;
 
 public class NumericInputHandler extends KeyAdapter {
 
-    private JTextField text;
-    private int min;
-    private int max;
+    protected JTextField text;
+    protected int min;
+    protected int max;
 
     public NumericInputHandler(JTextField _text, int _min, int _max){
         text = _text;

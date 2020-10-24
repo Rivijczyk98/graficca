@@ -3,6 +3,7 @@ package pl.edu.pb.wi.grafika.UI;
 import pl.edu.pb.wi.grafika.DataStorage.Storage;
 import pl.edu.pb.wi.grafika.Handlers.MouseMovementStatistics;
 import pl.edu.pb.wi.grafika.UI.Elements.*;
+import pl.edu.pb.wi.grafika.utils.ColorUtil;
 
 import javax.swing.*;
 import java.awt.*;
@@ -68,6 +69,12 @@ public class MainWindow extends JFrame {
         paintPanel.addMouseMotionListener(new MouseMovementStatistics(statisticsNav));
 
         setVisible(true);
+
+        tools.getRgbPicker()
+                .setImage(ColorUtil.generateGradient(200, Color.BLACK, Color.WHITE, Color.BLACK, Color.RED));
+
+        tools.getRgbPicker()
+                .setColors(ColorUtil.getMultiColor(30, 200));
     }
 
     public void setErrorText (String errorText){

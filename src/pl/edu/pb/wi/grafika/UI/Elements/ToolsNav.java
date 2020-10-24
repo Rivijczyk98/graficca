@@ -1,6 +1,7 @@
 package pl.edu.pb.wi.grafika.UI.Elements;
 
 import pl.edu.pb.wi.grafika.Handlers.NumericInputHandler;
+import pl.edu.pb.wi.grafika.utils.ColorUtil;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,6 +9,7 @@ import java.awt.*;
 public class ToolsNav extends JPanel {
 
     private JTextField jpegCompressionPicker = new JTextField("70");
+    private RgbPicker rgbPicker = new RgbPicker();
 
     public ToolsNav() {
         super(new GridBagLayout());
@@ -33,7 +35,7 @@ public class ToolsNav extends JPanel {
 
         gc.gridy = 2;
         gc.weighty = 0.3f;
-        add(new RgbPicker(), gc);
+        add(rgbPicker, gc);
 
         gc.gridy = 3;
         gc.weighty = 0.5f;
@@ -43,6 +45,10 @@ public class ToolsNav extends JPanel {
 
         jpegCompressionPicker.addKeyListener(new NumericInputHandler(jpegCompressionPicker, 0, 100));
 
+    }
+
+    public RgbPicker getRgbPicker(){
+        return rgbPicker;
     }
 
     public int getJpegCompressionValue() {
