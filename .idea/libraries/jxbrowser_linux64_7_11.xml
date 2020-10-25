@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jxbrowser-linux64-7.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Pobrane/jxbrowser-7.11-cross-desktop-win_mac_linux/lib/jxbrowser-linux64-7.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

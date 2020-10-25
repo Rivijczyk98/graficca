@@ -1,10 +1,7 @@
 package pl.edu.pb.wi.grafika.UI.Elements;
 
 import pl.edu.pb.wi.grafika.DataStorage.Storage;
-import pl.edu.pb.wi.grafika.Handlers.LoadImageButtonHandler;
-import pl.edu.pb.wi.grafika.Handlers.SaveJpegButtonHandler;
-import pl.edu.pb.wi.grafika.Handlers.SaveP3ButtonHandler;
-import pl.edu.pb.wi.grafika.Handlers.SaveP6ButtonHandler;
+import pl.edu.pb.wi.grafika.Handlers.*;
 import pl.edu.pb.wi.grafika.UI.MainWindow;
 import pl.edu.pb.wi.grafika.UI.prefabs.Button;
 
@@ -17,6 +14,7 @@ public class TopNav extends JPanel {
     private JButton saveFileAsP3 = new Button("Save P3");
     private JButton saveFileAsP6 = new Button("Save P6");
     private JButton saveFileAsJPEG = new Button("Save JPEG");
+    private JButton openCube = new Button("RGB Cube");
 
     public TopNav(PaintPanel _paintPanel, ToolsNav _toolsNav) {
         super(new GridBagLayout());
@@ -27,16 +25,20 @@ public class TopNav extends JPanel {
         gc.anchor = GridBagConstraints.CENTER;
         gc.weightx = 0.02f;
 
-        loadFile.addActionListener(new LoadImageButtonHandler(_paintPanel));
-        add(loadFile, gc);
+//        loadFile.addActionListener(new LoadImageButtonHandler(_paintPanel));
+//        add(loadFile, gc);
+//
+//        saveFileAsJPEG.setPreferredSize(new Dimension(150, 32));
+//        saveFileAsJPEG.addActionListener(
+//                new SaveJpegButtonHandler(_toolsNav, _paintPanel)
+//        );
+//        add(saveFileAsJPEG, gc);
 
-        saveFileAsJPEG.setPreferredSize(new Dimension(150, 32));
-        saveFileAsJPEG.addActionListener(
-                new SaveJpegButtonHandler(_toolsNav, _paintPanel)
-        );
-        add(saveFileAsJPEG, gc);
+        openCube.setPreferredSize(new Dimension(150, 32));
+        openCube.addActionListener(new OpenRgbCubeHandler());
+        add(openCube, gc);
 
-        gc.weightx = 0.96;
+        gc.weightx = 0.98;
         JPanel jp = new JPanel(new GridBagLayout());
         jp.setBackground(Color.DARK_GRAY);
         add(jp, gc);

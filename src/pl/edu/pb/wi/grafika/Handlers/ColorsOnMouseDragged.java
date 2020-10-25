@@ -4,6 +4,7 @@ import org.w3c.dom.css.RGBColor;
 import pl.edu.pb.wi.grafika.UI.Elements.ColorPicker;
 import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
 import pl.edu.pb.wi.grafika.UI.Elements.RgbPaintPanel;
+import pl.edu.pb.wi.grafika.UI.Elements.RgbPicker;
 import pl.edu.pb.wi.grafika.utils.ColorUtil;
 
 import java.awt.*;
@@ -14,10 +15,12 @@ public class ColorsOnMouseDragged extends MouseMotionAdapter {
 
     ColorPicker picker;
     RgbPaintPanel rgbPicker;
+    RgbPicker rgb;
 
-    public ColorsOnMouseDragged(ColorPicker _picker, RgbPaintPanel _rgb) {
+    public ColorsOnMouseDragged(ColorPicker _picker, RgbPaintPanel _rgb, RgbPicker _rgbPicker) {
         super();
 
+        rgb = _rgbPicker;
         rgbPicker = _rgb;
         picker = _picker;
     }
@@ -36,6 +39,13 @@ public class ColorsOnMouseDragged extends MouseMotionAdapter {
                         Color.BLACK,
                         new Color(picker.getImage().getRGB(Math.max(0, Math.min(199, e.getX())), 0)
                         )
+                )
+        );
+
+        rgb.newColorSelected(
+                rgbPicker.getImage().getRGB(
+                        (int)rgbPicker.getPosition().getX(),
+                        (int)rgbPicker.getPosition().getY()
                 )
         );
     }

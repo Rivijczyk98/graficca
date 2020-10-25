@@ -1,11 +1,9 @@
 package pl.edu.pb.wi.grafika.Handlers.colorHandlers;
 
 import pl.edu.pb.wi.grafika.Handlers.NumericInputHandler;
-import pl.edu.pb.wi.grafika.UI.Elements.ColorPicker;
 import pl.edu.pb.wi.grafika.UI.Elements.RgbPicker;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 
 public class rInputHandler extends NumericInputHandler {
@@ -22,7 +20,11 @@ public class rInputHandler extends NumericInputHandler {
     @Override
     public void keyPressed(KeyEvent e) {
         super.keyPressed(e);
+    }
 
+    @Override
+    public void keyReleased(KeyEvent e) {
+        super.keyReleased(e);
         if(color == EColor.R
                 || color == EColor.G
                 || color == EColor.B
@@ -31,7 +33,6 @@ public class rInputHandler extends NumericInputHandler {
         } else {
             colorPicker.cmykChanged(color);
         }
-
     }
 }
 

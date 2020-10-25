@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://threejs.org/build/three.min.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <title>Rgb Cube</title>
+</head>
+<body style="overflow: hidden; margin: 0;">
+    <script>
+        let scene = new THREE.Scene();
+        let camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000);
+        let renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        let controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+        let geom = new THREE.BoxGeometry(1, 1, 1);
+
+        let colors = [
+            'yellow',
+            'white',
+            'red',
+            'magenta',
+            'cyan',
+            'green',
+            'blue',
+            'black'
+        ];
+
+        // const faceIndices = ['a', 'b', 'c'];
+        //
+        // geom.faces.forEach(f => {
+        //     for(let i = 0; i < faceIndices.length; i ++){
+        //         f.vertexColors[i] = new THREE.Color( colors[geom.vertices[f[faceIndices[i]]]] );
+        //     }
+        // });
+
+        geom.faces[0].vertexColors[0] =  new THREE.Color( colors[0] ); // 0
+        geom.faces[0].vertexColors[1] =  new THREE.Color( colors[2] ); // 2
+        geom.faces[0].vertexColors[2] =  new THREE.Color( colors[1] ); // 1
+        geom.faces[1].vertexColors[0] =  new THREE.Color( colors[2] ); // 2
+        geom.faces[1].vertexColors[1] =  new THREE.Color( colors[3] ); // 3
+        geom.faces[1].vertexColors[2] =  new THREE.Color( colors[1] ); // 1
+        geom.faces[2].vertexColors[0] =  new THREE.Color( colors[4] ); // 4
+        geom.faces[2].vertexColors[1] =  new THREE.Color( colors[6] ); // 6
+        geom.faces[2].vertexColors[2] =  new THREE.Color( colors[5] ); // 5
+        geom.faces[3].vertexColors[0] =  new THREE.Color( colors[6] ); // 6
+        geom.faces[3].vertexColors[1] =  new THREE.Color( colors[7] ); // 7
+        geom.faces[3].vertexColors[2] =  new THREE.Color( colors[5] ); // 5
+        geom.faces[4].vertexColors[0] =  new THREE.Color( colors[4] ); // 4
+        geom.faces[4].vertexColors[1] =  new THREE.Color( colors[5] ); // 5
+        geom.faces[4].vertexColors[2] =  new THREE.Color( colors[1] ); // 1
+        geom.faces[5].vertexColors[0] =  new THREE.Color( colors[5] ); // 5
+        geom.faces[5].vertexColors[1] =  new THREE.Color( colors[0] ); // 0
+        geom.faces[5].vertexColors[2] =  new THREE.Color( colors[1] ); // 1
+        geom.faces[6].vertexColors[0] =  new THREE.Color( colors[7] ); // 7
+        geom.faces[6].vertexColors[1] =  new THREE.Color( colors[6] ); // 6
+        geom.faces[6].vertexColors[2] =  new THREE.Color( colors[2] ); // 2
+        geom.faces[7].vertexColors[0] =  new THREE.Color( colors[6] ); // 6
+        geom.faces[7].vertexColors[1] =  new THREE.Color( colors[3] ); // 3
+        geom.faces[7].vertexColors[2] =  new THREE.Color( colors[2] ); // 2
+        geom.faces[8].vertexColors[0] =  new THREE.Color( colors[5] ); // 5
+        geom.faces[8].vertexColors[1] =  new THREE.Color( colors[7] ); // 7
+        geom.faces[8].vertexColors[2] =  new THREE.Color( colors[0] ); // 0
+        geom.faces[9].vertexColors[0] =  new THREE.Color( colors[7] ); // 7
+        geom.faces[9].vertexColors[1] =  new THREE.Color( colors[2] ); // 2
+        geom.faces[9].vertexColors[2] =  new THREE.Color( colors[0] ); // 0
+        geom.faces[10].vertexColors[0] = new THREE.Color( colors[1] ); // 1
+        geom.faces[10].vertexColors[1] = new THREE.Color( colors[3] ); // 3
+        geom.faces[10].vertexColors[2] = new THREE.Color( colors[4] ); // 4
+        geom.faces[11].vertexColors[0] = new THREE.Color( colors[3] ); // 3
+        geom.faces[11].vertexColors[1] = new THREE.Color( colors[6] ); // 6
+        geom.faces[11].vertexColors[2] = new THREE.Color( colors[4] ); // 4
+
+        let mat = new THREE.MeshBasicMaterial({
+            vertexColors: THREE.VertexColors
+        });
+
+        let cube = new THREE.Mesh(geom, mat);
+        scene.add(cube);
+
+        camera.position.z = 5;
+
+        function render() {
+            requestAnimationFrame(render);
+            renderer.render(scene, camera);
+        }
+
+        render();
+    </script>
+</body>
+</html>
