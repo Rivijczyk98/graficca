@@ -4,10 +4,14 @@ import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
 import pl.edu.pb.wi.grafika.UI.MainWindow;
 
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.nio.Buffer;
 
 public class Storage {
 
     private static Storage instance;
+    private static BufferedImage originalImage;
+    private static BufferedImage editedImage;
 
     public static MainWindow mainWindow;
     public static Point mousePosition;
@@ -35,5 +39,29 @@ public class Storage {
 
     public static void setErrorMessage(String errorMessage){
         mainWindow.setErrorText(errorMessage);
+    }
+
+    public static void newImage(BufferedImage _original){
+        originalImage = _original;
+        editedImage = _original;
+        resetImage();
+    }
+
+    public static BufferedImage getEditedImage() {
+        return editedImage;
+    }
+
+    public static void setEditedImage(BufferedImage img){
+        editedImage = img;
+        mainWindow.setImage(editedImage);
+    }
+
+    public static boolean isOriginalImagePresent(){
+        return originalImage != null;
+    }
+
+    public static void resetImage(){
+        editedImage = originalImage;
+        mainWindow.setImage(originalImage);
     }
 }

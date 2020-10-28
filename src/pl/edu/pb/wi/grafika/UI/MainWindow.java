@@ -13,6 +13,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
 
 public class MainWindow extends JFrame {
 
@@ -33,7 +34,7 @@ public class MainWindow extends JFrame {
         GridBagConstraints gc = new GridBagConstraints();
 
         setTitle("Graphicca");
-        setSize(1280, 720);
+        setSize(1600, 900);
         setResizable(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -60,10 +61,10 @@ public class MainWindow extends JFrame {
         gc.gridwidth = 1;
         add(tools, gc);
 
-//        gc.fill = GridBagConstraints.BOTH;
-//        gc.weightx = 0.9f;
-//        gc.gridx = 1;
-//        add(paintPanel, gc);
+        gc.fill = GridBagConstraints.BOTH;
+        gc.weightx = 0.9f;
+        gc.gridx = 1;
+        add(paintPanel, gc);
 
         gc.fill = GridBagConstraints.BOTH;
         gc.weightx = 1f;
@@ -83,7 +84,7 @@ public class MainWindow extends JFrame {
         tools.getRgbPicker()
                 .setColors(ColorUtil.getMultiColor(30, 200));
 
-        SwingUtilities.invokeLater(new Runnable() {
+        /*SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
                 jfxCubePanel = new JfxCubePanel();
@@ -140,7 +141,7 @@ public class MainWindow extends JFrame {
                 });
 
             }
-        });
+        });*/
     }
 
     public void setErrorText (String errorText){
@@ -149,5 +150,9 @@ public class MainWindow extends JFrame {
 
     public String getErrorMessage(){
         return editorNav.getError();
+    }
+
+    public void setImage(BufferedImage _image){
+        paintPanel.setImage(_image);
     }
 }

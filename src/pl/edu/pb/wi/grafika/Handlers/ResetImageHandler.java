@@ -1,23 +1,18 @@
 package pl.edu.pb.wi.grafika.Handlers;
 
-import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
+import pl.edu.pb.wi.grafika.DataStorage.Storage;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 
-public class SaveP6ButtonHandler implements ActionListener {
+public class ResetImageHandler implements ActionListener {
 
-    public SaveP6ButtonHandler() {
+    public ResetImageHandler() {
         super();
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-
-    }
-
-    private void saveFile(File file){
-
+        Storage.resetImage();
     }
 }
