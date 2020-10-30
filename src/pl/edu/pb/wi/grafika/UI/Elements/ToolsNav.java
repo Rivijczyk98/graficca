@@ -40,8 +40,12 @@ public class ToolsNav extends JPanel {
         add(rgbPicker, gc);
 
         gc.gridy = 3;
-        gc.weighty = 0.8f;
+        gc.weighty = 0.6f;
         add(modifications, gc);
+
+        gc.gridy = 4;
+        gc.weighty = 0.2f;
+        add(new HistogramsBinarization(), gc);
 
         jpegCompressionPicker.addKeyListener(new NumericInputHandler(jpegCompressionPicker, 0, 100));
 

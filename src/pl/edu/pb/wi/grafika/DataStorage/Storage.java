@@ -1,17 +1,16 @@
 package pl.edu.pb.wi.grafika.DataStorage;
 
-import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
 import pl.edu.pb.wi.grafika.UI.MainWindow;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.nio.Buffer;
 
 public class Storage {
 
     private static Storage instance;
     private static BufferedImage originalImage;
     private static BufferedImage editedImage;
+    private static int[][] histograms = null;
 
     public static MainWindow mainWindow;
     public static Point mousePosition;
@@ -63,5 +62,13 @@ public class Storage {
     public static void resetImage(){
         editedImage = originalImage;
         mainWindow.setImage(originalImage);
+    }
+
+    public static int[][] getHistograms() {
+        return histograms;
+    }
+
+    public static void setHistograms(int[][] histograms) {
+        Storage.histograms = histograms;
     }
 }
