@@ -15,6 +15,7 @@ public class TopNav extends JPanel {
     private JButton openCube = new Button("RGB Cube");
     private JButton resetImage = new Button("Reset Image");
     private JButton bezierButton = new Button("Bezier");
+    private JButton transformation2DButton = new Button("Transformation 2D");
 
     public TopNav(PaintPanel _paintPanel, ToolsNav _toolsNav) {
         super(new GridBagLayout());
@@ -48,6 +49,12 @@ public class TopNav extends JPanel {
             new BezierWindow();
         });
         add(bezierButton, gc);
+
+        transformation2DButton.setPreferredSize(new Dimension(170, 32));
+        transformation2DButton.addActionListener(actionEvent -> {
+            new TransformationsWindow();
+        });
+        add(transformation2DButton, gc);
 
         gc.weightx = 0.92;
         JPanel jp = new JPanel(new GridBagLayout());
