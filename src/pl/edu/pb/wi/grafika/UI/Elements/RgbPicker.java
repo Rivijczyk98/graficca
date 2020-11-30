@@ -134,6 +134,10 @@ public class RgbPicker extends JPanel {
         colors.setImage(_image);
     }
 
+    public Color getColor(){
+        return new Color(rgbColor.r, rgbColor.g, rgbColor.b);
+    }
+
     public RgbPicker() {
         super(new GridBagLayout());
 

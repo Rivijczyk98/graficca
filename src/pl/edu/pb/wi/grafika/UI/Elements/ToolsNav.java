@@ -51,7 +51,7 @@ public class ToolsNav extends JPanel {
         add(new HistogramsBinarization(), gc);
 
         gc.gridy = 5;
-        gc.weighty = -.2f;
+        gc.weighty = .2f;
         JButton morphologyButton = new Button("Morphology");
         morphologyButton.setPreferredSize(new Dimension(150, 32));
         add(morphologyButton, gc);
@@ -60,6 +60,20 @@ public class ToolsNav extends JPanel {
                 new Window();
             } else {
                 Storage.setErrorMessage("No image found!");
+            }
+        });
+
+
+        gc.gridy = 6;
+        gc.weighty = .2f;
+        JButton lastButton = new Button("Analysis");
+        lastButton.setPreferredSize(new Dimension(150, 32));
+        add(lastButton, gc);
+        lastButton.addActionListener(actionEvent -> {
+            if(Storage.isOriginalImagePresent()){
+                new AnalysisWindow();
+            } else {
+                Storage.setErrorMessage("No image found");
             }
         });
 

@@ -2,6 +2,7 @@ package pl.edu.pb.wi.grafika.Handlers;
 
 import pl.edu.pb.wi.grafika.DataStorage.Storage;
 import pl.edu.pb.wi.grafika.UI.Elements.PaintPanel;
+import pl.edu.pb.wi.grafika.utils.ImageBasicsUtils;
 import pl.edu.pb.wi.grafika.utils.P3;
 import pl.edu.pb.wi.grafika.utils.P6;
 
@@ -27,7 +28,7 @@ public class LoadImageButtonHandler implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         JFileChooser opener = new JFileChooser();
-        opener.setFileFilter(new FileNameExtensionFilter("*.ppm *.jpeg *.jpg", "ppm", "jpeg", "jpg"));
+        opener.setFileFilter(new FileNameExtensionFilter("*.ppm *.jpeg *.jpg *.png", "ppm", "jpeg", "jpg", "png"));
 
         int returnValue = opener.showDialog(null, "Select image");
         if (returnValue == JFileChooser.APPROVE_OPTION) {
@@ -36,6 +37,8 @@ public class LoadImageButtonHandler implements ActionListener {
                 String filename = opener.getSelectedFile().toString();
                 if (filename.substring(filename.lastIndexOf(".")).equals(".jpeg")
                         || filename.substring(filename.lastIndexOf(".")).equals(".jpg")) {
+                    image = ImageIO.read(opener.getSelectedFile());
+                } else if (filename.contains(".png")){
                     image = ImageIO.read(opener.getSelectedFile());
                 } else {
                     byte[] b = new byte[2];
