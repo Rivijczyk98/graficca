@@ -205,5 +205,20 @@ public class ImageBasicsUtils {
         return img;
     }
 
+    public static BufferedImage copy(BufferedImage bufferedImage){
+        final int WIDTH = bufferedImage.getWidth();
+        final int HEIGHT = bufferedImage.getHeight();
+
+        BufferedImage img = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+
+        for(int x = 0; x < WIDTH; x ++){
+            for(int y = 0; y < HEIGHT; y++) {
+                img.setRGB(x,y,bufferedImage.getRGB(x,y));
+            }
+        }
+
+        return img;
+    }
+
 
 }

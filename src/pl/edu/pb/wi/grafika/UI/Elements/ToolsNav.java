@@ -1,6 +1,9 @@
 package pl.edu.pb.wi.grafika.UI.Elements;
 
+import pl.edu.pb.wi.grafika.DataStorage.Storage;
 import pl.edu.pb.wi.grafika.Handlers.NumericInputHandler;
+import pl.edu.pb.wi.grafika.UI.Elements.Morphology.Window;
+import pl.edu.pb.wi.grafika.UI.prefabs.Button;
 import pl.edu.pb.wi.grafika.utils.ColorUtil;
 
 import javax.swing.*;
@@ -46,6 +49,19 @@ public class ToolsNav extends JPanel {
         gc.gridy = 4;
         gc.weighty = 0.2f;
         add(new HistogramsBinarization(), gc);
+
+        gc.gridy = 5;
+        gc.weighty = -.2f;
+        JButton morphologyButton = new Button("Morphology");
+        morphologyButton.setPreferredSize(new Dimension(150, 32));
+        add(morphologyButton, gc);
+        morphologyButton.addActionListener(actionEvent -> {
+            if(Storage.isOriginalImagePresent()){
+                new Window();
+            } else {
+                Storage.setErrorMessage("No image found!");
+            }
+        });
 
         jpegCompressionPicker.addKeyListener(new NumericInputHandler(jpegCompressionPicker, 0, 100));
 
