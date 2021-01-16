@@ -8,7 +8,7 @@ Projekt na zaliczenie Grafiki Komputerowej na Politechnice Białostockiej 2020/2
 * Swing
 
 ## Funkcjonalności zawarte
-### Zadanie 1 [DONE Branch: Zadanie1]
+### Zadanie 1
 1. Rysowanie trzech prymitywów: linii, prostokątu, okręgu.
 1. Podawanie parametrów rysowania za pomocą pola tekstowego (wpisanie parametrów w pole tekstowe i zatwierdzanie przyciskiem).
 1. Rysowanie przy użyciu myszy (definiowanie punktów charakterystycznych kliknięciami).
@@ -36,12 +36,6 @@ Projekt na zaliczenie Grafiki Komputerowej na Politechnice Białostockiej 2020/2
 1. Kostka RGB powinna zostać narysowana w trójwymiarze
 1. Użytkownik powinien mieć możliwość obracania kostką.
 1. Pokrycie kostki kolorami powinno odbywać się zgodnie ze wzorami skorelowanymi z przestrzenią barw RGB.
-
-#### Rysowanie stożka HSV
-1. Stożek HSV powinien zostać narysowany w trójwymiarze.
-1. Użytkownik powinien mieć możliwość obracania stożkiem.
-1. Pokrycie stożka kolorami powinno odbywać się przy użyciu odpowiednich wzorów skorelowanych z przestrzenią barw HSV.
-1. Użytkownik powinien mieć możliwość obserwacji przekroju stożka. Po wyborze odpowiedniego miejsca stożka powinien pojawić się jego przekrój (obok lub poprzez przecięcie stożka).
 
 ### Zadanie 4
 #### Pierwsza część Państwa zadania jest skorelowana z przekształceniami punktowymi. Użytkownik musi mieć możliwość pierwotnego wczytania obrazu a następnie muszą być dla niego dostępne następujące operacje:
