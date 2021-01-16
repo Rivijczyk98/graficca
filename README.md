@@ -6,6 +6,7 @@ Projekt na zaliczenie Grafiki Komputerowej na Politechnice Białostockiej 2020/2
 
 ## Technologia
 * Swing
+* ThreeJs (Kostka Zadanie 3)
 
 ## Funkcjonalności zawarte
 ### Zadanie 1
